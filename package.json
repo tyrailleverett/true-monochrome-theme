@@ -1,0 +1,49 @@
+{
+  "name": "true-monochrome-theme",
+  "displayName": "True Monochrome Theme",
+  "description": "A dark theme for VS Code with a monochrome color palette",
+  "version": "1.0.0",
+  "icon": "assets/logo.png",
+  "publisher": "Tyrail Leverett",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyrailleverett/true-monochrome-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "monochrome",
+    "color theme",
+    "icon theme",
+    "icons"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "True Monochrome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/True-Monochrome-Theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "true-monochrome-icons",
+        "label": "True Monochrome Icons",
+        "path": "./themes/True-Monochrome-Icons.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}
