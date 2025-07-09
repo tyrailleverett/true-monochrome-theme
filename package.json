@@ -4,7 +4,7 @@
   "description": "A dark theme for VS Code with a monochrome color palette",
   "version": "1.0.0",
   "icon": "assets/logo.png",
-  "publisher": "Tyrail Leverett",
+  "publisher": "tyrailleverett",
   "repository": {
     "type": "git",
     "url": "https://github.com/tyrailleverett/true-monochrome-theme"
